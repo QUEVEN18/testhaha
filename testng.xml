@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suit1">
+    <parameter name="name" value="13981871131"/>
+    <parameter name="passwd" value="queven9306278"/>
+    <test verbose="2" preserve-order="true" name="D:/IdeaProjects/haha">
+        <classes>
+            <class name="testpackge.test">
+                <methods>
+                    <include name="Login"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
